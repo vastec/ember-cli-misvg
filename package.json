@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-maintainable-inline-svg",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember addon to combine SVG files into one JS file and inject it through dedicated component into application. It makes maintenance of SVGs easy and deliver the best possible interaction with SVGs.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,7 +15,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Tomasz Nieżurawski <tomasz@niezurawski.pl>",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
@@ -40,7 +40,10 @@
     "loader.js": "^4.0.0"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "svg",
+    "inline",
+    "maintainable"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"
