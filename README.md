@@ -1,4 +1,4 @@
-# Ember-cli-maintainable-inline-svg
+# `ember-cli-misvg`
 
 This README outlines the details of collaborating on this Ember addon.
 

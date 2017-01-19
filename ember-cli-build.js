@@ -4,7 +4,15 @@ var EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
 module.exports = function(defaults) {
   var app = new EmberAddon(defaults, {
-    // Add options here
+    'misvg': {
+      files: {
+        sourceDirs: 'tests/dummy/app/icons',
+        outputFile: '/assets/svg-sprites.js'
+      },
+      misvgOptions: {
+        indent: 2
+      }
+    }
   });
 
   /*

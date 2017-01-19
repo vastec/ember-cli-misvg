@@ -1,0 +1,20 @@
+.notes .notes-pencil {
+  fill: #378DCC;
+}
+.notes:hover .notes-pencil {
+  fill: #fff;
+}
+
+.notes .notes-circle {
+  stroke: #378DCC;
+  fill: transparent;
+  transition: fill .5s;
+}
+
+.notes:hover .notes-circle {
+  fill: #378DCC;
+}
+
+.plus {
+  margin-top: 15px;
+}
