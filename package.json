@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-misvg",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Ember addon to combine SVG files into one JS file and inject it through dedicated component into application. It makes maintenance of SVGs easy and deliver the best possible interaction with SVGs.",
   "directories": {
     "doc": "doc",
