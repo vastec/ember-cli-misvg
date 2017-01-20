@@ -1,5 +1,7 @@
 # `ember-cli-misvg`
 
+[![Build Status](https://travis-ci.org/vastec/ember-cli-misvg.svg?branch=master)](https://travis-ci.org/vastec/ember-cli-misvg)
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
