@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-const { Service, isPresent, Handlebars } = Ember;
+const { Service, isPresent } = Ember;
 
 export default Service.extend({
   sprites: window.MISVG_STORE,
@@ -14,6 +14,6 @@ export default Service.extend({
   },
 
   getSvgCode(spriteName) {
-    return new Handlebars.SafeString(this.getSprite(spriteName));
+    return new Ember.String.htmlSafe(this.getSprite(spriteName));
   }
 });

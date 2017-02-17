@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import layout from '../templates/misvg-icon';
 
-const { Component, computed, inject: { service }, Handlebars } = Ember;
+const { Component, computed, inject: { service } } = Ember;
 
 export default Component.extend({
   layout:             layout,
@@ -24,6 +24,6 @@ export default Component.extend({
   componentStyle: computed('width', 'height', function() {
     let style = `width: ${this.get('width')}px; height: ${this.get('height')}px;`;
 
-    return new Handlebars.SafeString(style);
+    return new Ember.String.htmlSafe(style);
   })
 });

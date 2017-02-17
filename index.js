@@ -10,7 +10,7 @@ var Funnel = require('broccoli-funnel');
 var MergeTrees = require('broccoli-merge-trees');
 
 module.exports = {
-  name: 'ember-cli-maintainable-inline-svg',
+  name: 'ember-cli-misvg',
 
   options: function() {
     return this._options = this._options || merge(true, {}, {

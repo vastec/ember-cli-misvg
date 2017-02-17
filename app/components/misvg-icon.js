@@ -1,3 +1,3 @@
-import MisvgIcon from 'ember-cli-maintainable-inline-svg/components/misvg-icon';
+import MisvgIcon from 'ember-cli-misvg/components/misvg-icon';
 
 export default MisvgIcon;
