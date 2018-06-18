@@ -1,6 +1,6 @@
-import Ember from 'ember';
-
-const { Service, isPresent } = Ember;
+import { htmlSafe } from '@ember/template';
+import Service from '@ember/service';
+import { isPresent } from '@ember/utils';
 
 export default Service.extend({
   sprites: window.MISVG_STORE,
@@ -14,6 +14,6 @@ export default Service.extend({
   },
 
   getSvgCode(spriteName) {
-    return new Ember.String.htmlSafe(this.getSprite(spriteName));
+    return new htmlSafe(this.getSprite(spriteName));
   }
 });
