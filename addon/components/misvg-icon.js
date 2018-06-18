@@ -25,6 +25,6 @@ export default Component.extend({
   componentStyle: computed('width', 'height', function() {
     let style = `width: ${this.get('width')}px; height: ${this.get('height')}px;`;
 
-    return new htmlSafe(style);
+    return htmlSafe(style);
   })
 });
